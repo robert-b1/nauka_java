@@ -8,5 +8,9 @@ public class Main {
 
         mocnoPalona = new Mleko(mocnoPalona);
         System.out.println(mocnoPalona.opis+" "+mocnoPalona.koszt()+" +mleko");
+
+        mocnoPalona = new Czekolada(mocnoPalona);
+        System.out.println(mocnoPalona.opis+" "+mocnoPalona.koszt()+" +czekolada");
+
     }
 }
